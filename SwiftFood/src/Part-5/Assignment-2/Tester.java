@@ -14,7 +14,7 @@ public class Tester {
 		r1.rating=scn.nextFloat();
 		System.out.println("Enter Contact of Resturant");
 		r1.resturantContact=scn.nextLong();
-		System.out.println();
+		scn.nextLine();
 		System.out.println("Enter Address");
 		r1.resturantAddress = scn.nextLine();
 		
